@@ -1,5 +1,6 @@
 import "./ExpensesFilter.css";
 
+// filtering the dropdown menu that is using as selecting year.
 const ExpensesFilter = (props) => {
   const dropdownChangeHandler = (event) => {
     props.onChangeFilter(event.target.value);
